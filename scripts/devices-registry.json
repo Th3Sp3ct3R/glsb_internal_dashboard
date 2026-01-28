@@ -1,0 +1,110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "version": "2.0",
+  "devices": [
+    {
+      "id": "device-001",
+      "device_name": "GeeLark Pro 1",
+      "status": "running",
+      "android_version": "11.0",
+      "model": "Pixel 5",
+      "proxy": "proxy-us-east-1.vanta.net:8080",
+      "adb_enabled": true,
+      "accounts": [
+        {
+          "id": "acc-001",
+          "username": "fashionista_daily",
+          "display_name": "Fashion Daily",
+          "profile_picture_url": "https://via.placeholder.com/150",
+          "bio": "Daily fashion inspiration 👗✨",
+          "external_url": "https://fashionista.example.com",
+          "followers_count": 125000,
+          "following_count": 450,
+          "posts_count": 1243,
+          "is_logged_in": true,
+          "model": "Fashion Influencer",
+          "last_activity": "2024-01-27T10:30:00Z",
+          "is_flagged": false
+        },
+        {
+          "id": "acc-002",
+          "username": "travel_explorer_",
+          "display_name": "Travel Explorer",
+          "profile_picture_url": "https://via.placeholder.com/150",
+          "bio": "Exploring the world one city at a time 🌍✈️",
+          "followers_count": 89000,
+          "following_count": 320,
+          "posts_count": 876,
+          "is_logged_in": true,
+          "model": "Travel Blogger",
+          "last_activity": "2024-01-27T09:15:00Z",
+          "is_flagged": false
+        }
+      ]
+    },
+    {
+      "id": "device-002",
+      "device_name": "GeeLark Pro 2",
+      "status": "running",
+      "android_version": "12.0",
+      "model": "Samsung S21",
+      "proxy": "proxy-us-west-1.vanta.net:8080",
+      "adb_enabled": true,
+      "accounts": [
+        {
+          "id": "acc-003",
+          "username": "fitness_guru_pro",
+          "display_name": "Fitness Guru",
+          "profile_picture_url": "https://via.placeholder.com/150",
+          "bio": "Transform your body, transform your life 💪",
+          "followers_count": 234000,
+          "following_count": 180,
+          "posts_count": 2156,
+          "is_logged_in": true,
+          "model": "Fitness Coach",
+          "last_activity": "2024-01-27T11:00:00Z",
+          "is_flagged": false
+        }
+      ]
+    },
+    {
+      "id": "device-003",
+      "device_name": "GeeLark Pro 3",
+      "status": "stopped",
+      "android_version": "11.0",
+      "model": "Pixel 4a",
+      "proxy": "proxy-eu-west-1.vanta.net:8080",
+      "adb_enabled": false,
+      "accounts": [
+        {
+          "id": "acc-004",
+          "username": "food_lover_eats",
+          "display_name": "Food Lover",
+          "profile_picture_url": "https://via.placeholder.com/150",
+          "bio": "Foodie sharing delicious recipes 🍕🍰",
+          "followers_count": 67000,
+          "following_count": 890,
+          "posts_count": 543,
+          "is_logged_in": false,
+          "model": "Food Blogger",
+          "last_activity": "2024-01-26T18:45:00Z",
+          "is_flagged": false
+        },
+        {
+          "id": "acc-005",
+          "username": "tech_reviews_hq",
+          "display_name": "Tech Reviews HQ",
+          "profile_picture_url": "https://via.placeholder.com/150",
+          "bio": "Honest tech reviews and tutorials 📱💻",
+          "followers_count": 156000,
+          "following_count": 210,
+          "posts_count": 987,
+          "is_logged_in": false,
+          "model": "Tech Reviewer",
+          "last_activity": "2024-01-26T16:20:00Z",
+          "is_flagged": true
+        }
+      ]
+    }
+  ]
+}
